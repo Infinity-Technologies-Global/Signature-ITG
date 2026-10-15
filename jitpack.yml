@@ -1,0 +1,4 @@
+jdk:
+  - openjdk17
+install:
+  - mvn install:install-file -Dfile=itg-authorization.aar -DgroupId=com.github.Infinity-Technologies-Global -DartifactId=Signature-ITG -Dversion=$VERSION -Dpackaging=aar -DgeneratePom=true
